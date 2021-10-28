@@ -1,0 +1,24 @@
+{
+  "name": "platzi-conf-merch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrodas121/platzi-conf-merch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrodas121/platzi-conf-merch/issues"
+  },
+  "homepage": "https://github.com/mrodas121/platzi-conf-merch#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
