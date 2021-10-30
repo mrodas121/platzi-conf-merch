@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "format": "prettier --write {*.js,src/**/*.{js,jsx}}",
+    "lint": "eslint src/ --fix"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,15 @@
   },
   "homepage": "https://github.com/mrodas121/platzi-conf-merch#readme",
   "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "prettier": "^2.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
