@@ -4,7 +4,7 @@ import AppContext from "../context/AppContext";
 import "../styles/components/Checkout.css";
 
 const Checkout = () =>{
-    const {state, removeFromCart} = useContext(AppContext);
+    const {state, removeFromCart, sumTotalItemsPrice} = useContext(AppContext);
     const {cart} = state;
 
     const handleRemove = product => ()=>{
@@ -12,9 +12,7 @@ const Checkout = () =>{
     }
 
     const handleSumTotal = () =>{
-        const reducer = (accumulator, currentValue) => accumulator + currentValue.price;
-        const sum = cart.reduce(reducer, 0)
-        return sum;
+        return sumTotalItemsPrice();
     }
 
     return(
