@@ -23,7 +23,6 @@ const Payment = () =>{
         return sumTotalItemsPrice();
     }
     const handlePaymentSuccess = (data) =>{
-        console.log(data);
         if(data === 'COMPLETED'){
             const newOrder = {
                 buyer,

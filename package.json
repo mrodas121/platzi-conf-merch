@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/mrodas121/platzi-conf-merch#readme",
   "dependencies": {
+    "@react-google-maps/api": "^2.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-paypal-button": "^4.1.1",
